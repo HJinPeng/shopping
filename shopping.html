@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header class="navbar-fixed-top">购物车</header>
+    <section class="car">
+        <div class="container">
+            <div class="row head">
+                <div class="col-xs-3">商品</div>
+                <div class="col-xs-2">单价</div>
+                <div class="col-xs-3">数量</div>
+                <div class="col-xs-2">小计</div>
+                <div class="col-xs-2">操作</div>
+            </div>
+            <div class="goods">
+
+            </div>
+            <!-- 
+            <div class="row item" id="1">
+                <div class="col-xs-3"><img src="imgs/xiaomi9.jpg" alt="" width="100%"></div>
+                <div class="col-xs-2 price">2299</div>
+                <div class="col-xs-3 num"><button>&nbsp;-&nbsp;</button> <span>1</span> <button>&nbsp;+&nbsp;</button></div>
+                <div class="col-xs-2 little_price">￥<span>2299</span></div>
+                <div class="col-xs-2 delete"><button>删除</button></div>
+            </div>
+            -->
+            <div class="row all_price">
+                总价格：￥
+                <span></span>
+            </div>
+        </div>
+    </section>
+    <footer class="navbar-fixed-bottom">
+        <nav class="container">
+            <ul class="row">
+                <li class="col-xs-3"><a href="index.html"><span class="glyphicon glyphicon-home"></span><br>首页</a></li>
+                <li class="col-xs-3"><a href="list.html"><span class="glyphicon glyphicon-th-list"></span><br>列表</a></li>
+                <li class="col-xs-3 current"><a href="javascript:;"><span class="glyphicon glyphicon-shopping-cart"></span><br>购物车</a></li>
+                <li class="col-xs-3"><a href="my.html"><span class="glyphicon glyphicon-user"></span><br>我的</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="lib/jqurey/jquery.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <script src="js/shopping.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(91, 162, 255);
+    height: 30px;
+    color: white;
+    text-align: center;
+}
+
+.carousel {
+    margin-top: 30px;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+section>h4 {
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+section h5 {
+    text-align: center;
+}
+
+section .container .row .col-xs-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    border-top: 1px solid #b9b4b4;
+    background: white;
+}
+
+footer nav {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+footer ul {
+    margin-top: 5px;
+    list-style: none;
+}
+
+footer ul li {
+    display: inline;
+}
+
+footer ul li a {
+    color: rgb(77, 76, 76);
+    text-decoration: none;
+}
+
+footer ul li a:link,
+footer ul li a:visited,
+footer ul li a:hover,
+footer ul li a:active {
+    text-decoration: none;
+}
+
+footer ul li.current a {
+    color: rgb(91, 162, 255);
+}
+
+
+/* list */
+
+.list .col-xs-12 {
+    border-bottom: 1px solid rgb(196, 196, 196);
+    padding-bottom: 5px;
+}
+
+.list .col-xs-12:last-child {
+    border: none;
+}
+
+.list {
+    margin-top: 40px;
+}
+
+.list h4 {
+    padding-bottom: 2px;
+    font-weight: bold;
+}
+
+.list p {
+    color: #b9b4b4
+}
+
+.list .price {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+
+/* list */
+
+
+/*shopping*/
+
+.car {
+    margin-top: 36px;
+    text-align: center;
+}
+
+.car .head {
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+
+.car .item {
+    border-bottom: 1px solid #b9b4b4;
+}
+
+.car .item>div:nth-child(2),
+.car .item>div:nth-child(3),
+.car .item>div:nth-child(4),
+.car .item>div:nth-child(5) {
+    margin-top: 30px;
+}
+
+.car .item:nth-last-child(1) {
+    border: none;
+}
+
+.all_price {
+    text-align: right;
+    padding: 8px 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.all_price span {
+    color: red;
+    font-weight: bold;
+}
+
+
+/*shopping*/
+
+
+/*   my   */
+
+.my {
+    margin-top: 30px;
+}
+
+.my .card {
+    text-align: center;
+    color: white;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.my .card img {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+
+.my .card p.name {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.my .card .mask_bg {
+    position: absolute;
+    background: url("../imgs/image.jpg") no-repeat 0 0;
+    background-size: cover;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    filter: blur(25px);
+}
+
+.my .card .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.my .info {
+    font-size: 1.1em;
+}
+
+.my .info ul {
+    margin-top: 15px;
+}
+
+.my .info ul li {
+    padding: 4px 15px;
+    /* border-bottom: 1px solid #b9b4b4;*/
+}
+
+.my .info ul li a {
+    color: black;
+}
+
+.my .info ul li span {
+    padding: 12px 20px 12px 8px;
+    color: gray;
+}
+
+
+/*   my   */
+
+
+/* register */
+
+.register h3,
+.login h3 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* register */
